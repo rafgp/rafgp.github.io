@@ -1,77 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Profile</title>
-    <link rel="stylesheet" href="styleindex.css">
-  </head>
-  <body>
 
-<div class="topbar"> <!-- Top bar -->
-  <div><p class="topleft">Profile.Raftery</p></div>
-    <div class="dropdown">
-      <button class="dropbtn">Nav</button>
-      <div class="dropdown-content">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="topBar"> <!-- Top bar -->
+    <div>
+      <p class="topLeft">Profile.Raftery</p>
+    </div>
+    <div class="dropDown">
+      <button class="dropBtn">Nav</button>
+      <div class="dropDownContent">
         <a href="profile.html" class="topright">Profile</a>
         <a href="dash.html" class="topright">Dashboard</a>
         <a href="faq.html" class="topright">FAQ</a>
         <a href="blog.html" class="topright">Blog</a>
         <a href="links.html" class="topright">Links</a>
       </div>
+    </div>
   </div>
+
+
+  <div class="mainSection"> <!-- Title, pfp and info -->
+    <div>
+      <h1>ICT student at HZ university.</h1>
+      <p class="indexIntro">Hi, I am Patricio and I am a first year at HZ.</p>
+      <div class="contactBtn">
+        <a href="#">Contact Me</a>
+      </div>
+    </div>
+    <img src="images/pfp.png" class="indexPfp">
   </div>
 
 
-<div class="main"> <!-- Title, pfp and info -->
-  <div>
-  <h1>ICT student at HZ university.</h1>
-  <p class="subtitle">Hi, my name is Patricio Raftery, I was born in México and just moved to the Netherlands.</p>
+  <div class="tech" id="EC"> <!-- Icons -->
+    <p>Technology |</p>
+    <div> <!-- Logos -->
+      <img src="images/js.png" class="indexIcons">
+      <img src="images/css.png" class="indexIcons">
+      <img src="images/html.png" class="indexIcons">
+    </div>
   </div>
-  <img src="images/pfp.png" class="pfp">
+
+  <div class="spaceTopTwoSq">
+  <h2 class="ecTitle">Extra curriculars:</h2>
+  <hr class="indexHr">
+  <div class="indexTopTwoSq"> <!-- Top two info sq-->
+    <a href="images/vid2.mp4" target="_blank">
+      <div class="bballImage">
+        <img src="images/basket.jpg" class="imageBasket">
+      </div>
+    </a>
+    <div class="bballInfo">
+      <p class="ecs text">
+        Throughout my entire life I have been involved in all sorts of sports. First, I played soccer, even reaching
+        youth teams in Mexican clubs, then I did Taekwondo, obtaining a black belt at 7 years old and 7 gold medals in
+        state and regional tournaments. Then I tried fencing for a short period but ended up switching to basketball,
+        where I attended 2 nationals, won the state championship, and won silver twice.
+      </p>
+    </div>
 </div>
 
-
-<div class="tech" id="EC"> <!-- Icons -->
-  <p>Technology |</p>
-  <div> <!-- Logos -->
-    <img src="images/js.png" class="logos">
-    <img src="images/css.png" class="logos">
-    <img src="images/html.png" class="logos">
-  </div> 
-</div>
-
-
-
-<div class="infoH"> <!-- Top two info sq-->
-<a href="images/vid2.mp4" target="_blank">
-<div class="info">  
-  <img src="images/basket.jpg" class="basket">
-</div>
-</a>
-<div class="info2">
-  <h2>Extra curriculars:</h2>
-  <p class="ecs">
-    Throughout my entire life I have been involved in all sorts of sports. First, I played soccer, even reaching youth teams in Mexican clubs, then I did Taekwondo, obtaining a black belt at 7 years old and 7 gold medals in state and regional tournaments. Then I tried fencing for a short period but ended up switching to basketball, where I attended 2 nationals, won the state championship, and won silver twice. 
-  </p> 
-</div>
-
-
-
-</div> <!-- Bottom two info sq-->
-<div class="infoL"> 
-  <div class="edu" id="edu">  
-    <h2>Education:</h2>
-    <p class="ecs2">
-      I studied my entire life in Mexico,
-      for the last 3 years I moved to Puebla, a large 
-      city in the center of Mexico in search of better-quality 
+  <h2 class="ecTitle">Education:</h2>
+  <hr class="indexHr">
+  <div class="indexTopTwoSq"> <!-- Bottom two info sq-->
+   <div><p class="ecInfo text">
+       I studied my entire life in Mexico,
+      for the last 3 years I moved to Puebla, a large
+      city in the center of Mexico in search of better-quality
       education.
     </p>
-
     <ul>
-      <p>The courses i took</p>
+      <p class="text">The courses i took</p>
       <li>Math </li>
       <li>Physics </li>
       <li>Business Management</li>
@@ -80,50 +87,60 @@
       <li>Theory of Knowledge</li>
       <li>German</li>
     </ul>
-</div>
+    </div>
+     
+    <div class="imgContainer">
+      <a href="https://www.damicis.edu.mx/" target="_blank">
+        <div>
+          <img src="images/school.jpg" class="school" alt="School Image">
+          <div class="schoolSubtitle">My old school</div>
+        </div>
+      </a>
+    </div>
+  </div>
+  </div>
 
 
-<div class="image-container">
-  <a href="https://www.damicis.edu.mx/" target="_blank">
+    <h2 class="ecTitle">Motivation:</h2>
+    <hr class="indexHr">
+        <p class="motivation text">
+          Personally, one of the biggest motivators for studying ICT is my interest in the world of technology and the vast opportunities ICT offers. I find myself captivated when programming, running in to problems and looking for solutions is something I enjoy thoroughly. I love the experience of learning and acquiring knowledge to build something new. 
+        </p>
+        <p class="motivation text">Since I was a kid, I loved anything to do with technology, software and hardware and I would catch myself spending hours on end browsing, gaming, exploring and in short interacting with anything digital I could put my cursor on. I also have a taste for creating things, letting creativity guide me, or following strict instructions to build something complex. Being a software engineer combines these two things I enjoy so much. I have already done some studying previous to HZ in to coding, via freecodecamp, YouTube and a few small python projects, but a testament to my interest is my website, as to before the assignment I had little to no experience with html or CSS, but I have spent a lot of time working and reworking things in it, investigating and learning new things that are not necessarily specified or required. </p>
+      </div>
+
+  
+
+  <!--Bottom Bar-->
+  <div class="bottombar" id="btm">
     <div>
-      <img src="images/school.jpg" class="sku" alt="School Image">
-      <div class="subtitle">My old school</div>
-    </div>
-  </a>
-</div>
-</div>
 
-
-<!--Bottom Bar-->
-<div class="bottombar" id="btm"> <!-- Bottom bar -->
-  <div>
-    <div class="sm"><p>Social Media</p></div> <!-- left side -->
-    <div class="icons"> 
-      <div class="icon1"> 
-      <a href="https://www.instagram.com/pato.raftery/" target="_blank">
-        <img src="images/insta.png" class="logos">
-      </a>
-      </div>
-      <div class="icon2">
-      <a href="https://www.facebook.com/" target="_blank">
-        <img src="images/facebook.png" class="logos">
-      </a>
-      </div>
-      <div class="icon1">
-      <a href="https://www.linkedin.com/" target="_blank">
-        <img src="images/lnk.png" class="logos">
-      </a>
+      <div class="socialMediaIcons">
+        <div class="iconHover">
+          <a href="https://www.instagram.com/pato.raftery/" target="_blank">
+            <img src="images/insta.png" class="indexIcons">
+          </a>
+        </div>
+        <div class="iconHover">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook.png" class="indexIcons">
+          </a>
+        </div>
+        <div class="iconHover">
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="images/lnk.png" class="indexIcons">
+          </a>
+        </div>
       </div>
     </div>
+    <div class="bottomBarContact"> <!-- Right side-->
+      <p>Email: patoraftery@gmail.com</p>
+      <p>Cell: +52 7712149329</p>
+    </div>
   </div>
-  <div class="rs"> <!-- Right side-->
-    <p>Email: patoraftery@gmail.com</p>
-    <p>Cell: +52 7712149329</p>
-  </div>
-</div>
 
+  
 
 
 </body>
 </html>
-

@@ -1,63 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Profile</title>
-    <link rel="stylesheet" href="styledash.css">
-    <script src="scriptdash.js"></script>
-  </head>
-  <body>
 
-    <div class="topbar"> 
-        <div><p class="topleft">Profile.Raftery</p></div>
-          <div class="dropdown">
-            <button class="dropbtn">Nav</button>
-            <div class="dropdown-content">
-              <a href="index.html" class="topright">Home</a>
-              <a href="profile.html" class="topright">Profile</a>
-              <a href="faq.html" class="topright">FAQ</a>
-              <a href="blog.html" class="topright">Blog</a>
-              <a href="links.html" class="topright">Links</a>
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scriptdash.js"></script>
+</head>
+
+<body>
+
+  <div class="topBar"> <!-- Top bar -->
+    <div>
+      <p class="topLeft">Profile.Raftery</p>
+    </div>
+    <div class="dropDown">
+      <button class="dropBtn">Nav</button>
+      <div class="dropDownContent">
+        <a href="index.html" class="topright">Home</a>
+        <a href="profile.html" class="topright">Profile</a>
+        <a href="faq.html" class="topright">FAQ</a>
+        <a href="blog.html" class="topright">Blog</a>
+        <a href="links.html" class="topright">Links</a>
       </div>
-
-<div class="main"> 
-  <h1>Dashboard</h1>
-</div>
-
-<!--Top two-->
-<div class="toptwo">
-  <div class="pco">
-    <a href="#"><img src="images/pco.png" alt="pco"></a>
+    </div>
   </div>
-  <div class="prog">
-    <a href="#"><img src="images/cs.png" alt="cs"></a>
-  </div>
-</div>
 
-<!--EC Total-->
-<div class="ec">
-  <div class="counter">
-    <h3>Total EC's </h3>
-    <span id="count">0</span>
-    <button id="incrementButton">+</button>
-    <button id="decrementButton">-</button>
-</div>
-</div>
-
-<!--Bottom two-->
-<div class="toptwo">
-  <div class="pco">
-    <a href="#"><img src="images/pco.png" alt="pco"></a>
+  <div class="mainTitle">
+    <h1>Dashboard</h1>
   </div>
-  <div class="prog">
-    <a href="#"><img src="images/cs.png" alt="cs"></a>
-  </div>
-</div>
 
+  <table class="dashTable">
+    <tr class="grade">
+      <th>Quarter</th>
+      <th>Course</th>
+      <th>EC's</th>
+      <th>Type</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td rowspan="6">1</td>
+    </tr>
+    <tr>
+      <td>Program & Career Orientation</td>
+      <td>2.5</td>s
+      <td>Assessment website (Individual process assessment)</td>
+      <td class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>Computer Science Basics</td>
+      <td>5</td>
+      <td>Written knowledge test</td>
+      <td class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>Programming Basics</td>
+      <td>5</td>
+      <td>Case study exam</td>
+      <td class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>IT Personality Project Week 1</td>
+      <td>1.25</td>
+      <td>Portfolio</td>
+      <td class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>IT Personality 1</td>
+      <td>1.25</td>
+      <td>Portfolio</td>
+      <td class="notDone">-</td>
+    </tr>
+    <tr>
+      <td rowspan="2">2</td>
+      <td rowspan="2">Object-Oriented programming</td>
+      <td rowspan="2">10</td>
+      <td>Presentation</td>
+      <td rowspan="2"  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>Case study exam</td>
+    </tr>
+    <tr>
+      <td rowspan="4">3</td>
+      <td>Framework Development 1</td>
+      <td>5</td>
+      <td>Case study exam</td>
+      <td  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Framework Project 1</td>
+      <td rowspan="3">7.5</td>
+      <td>Criterium based interview</td>
+      <td  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>Assignment</td>
+      <td  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>Assignment</td>
+      <td  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td rowspan="3">4</td>
+      <td rowspan="3">Framework Project 2</td>
+      <td rowspan="3">10</td>
+      <td>Final delivery</td>
+      <td  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>Report of acceptance tests and optional assessments</td>
+      <td  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>IT Development portfolio</td>
+      <td  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td rowspan="2">ALL</td>
+      <td rowspan="2">Personal Professional Development: Exploration</td>
+      <td rowspan="2">12.5</td>
+      <td>English Test</td>
+      <td  class="notDone">-</td>
+    </tr>
+    <tr>
+      <td>Criterium focused interview</td>
+      <td  class="notDone">-</td>
+    </tr>
+  </table>
+
+
+  <br>
+      <h2>NBSA </h2>
+      <div class="progress-bar">
+        <div class="bar">0%</div>
+        <ul class="marker-list">
+          <li class="marker" style="left: 75%">45EC</li>
+        </ul>
+      </div>
+      <br>
+      <br>
 </body>
 
 </html>

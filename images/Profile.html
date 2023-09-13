@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/profile.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+  <link rel="stylesheet" href="./Profile_files/style.css">
+</head>
+
+<body>
+
+  <div class="topBar"> <!-- Top bar -->
+    <div>
+      <p class="topLeft">Profile.Raftery</p>
+    </div>
+    <div class="dropDown">
+      <button class="dropBtn">Nav</button>
+      <div class="dropDownContent">
+        <a href="http://127.0.0.1:5500/index.html" class="topright">Home</a>
+        <a href="http://127.0.0.1:5500/dash.html" class="topright">Dashboard</a>
+        <a href="http://127.0.0.1:5500/faq.html" class="topright">FAQ</a>
+        <a href="http://127.0.0.1:5500/blog.html" class="topright">Blog</a>
+        <a href="http://127.0.0.1:5500/links.html" class="topright">Links</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mainTitle">
+    <h1>Who?</h1>
+  </div>
+
+  <div class="mainSectionProfile"> <!-- Title, pfp and info -->
+    <img src="./Profile_files/me.jpg" class="profilePfp">
+    <div>
+      <h1 class="profilePicText">Patricio Raftery García</h1>
+      <p class="profileIntro">Hello! My full name is Patricio Raftery García (I'm the one on the right). I am 17 years old and i have lived almost all my life in México.</p>
+      <a href="https://www.instagram.com/pato.raftery/" target="_blank">
+        <img src="./Profile_files/insta.png" class="indexIconsProfile">
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="./Profile_files/facebook.png" class="indexIconsProfile">
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank">
+        <img src="./Profile_files/lnk.png" class="indexIconsProfile">
+      </a>
+    </div>
+  </div>
+  <hr>
+  <div class="mainTitle">
+    <h1 class="where">Where?</h1>
+  </div>
+
+  <div class="mainSectionProfile2"> <!-- Title, pfp and info -->
+    <img src="./Profile_files/irish.jpg" class="profilePfp">
+    <div>
+      <h1 class="profilePicText">Mexican-Irish</h1>
+      <p class="profileIntro">I was born in a central city in México called Hidalgo in 2005, then my parents and I moved to a small beachside town in the northwest of the country called Loreto. We lived here for 15 years, then i moved by myself to a central city called Puebla in search of better-quality education, this is the city where i finished my studies. </p>
+    </div>
+  </div>
+
+    <div class="mainTitle">
+    <h1 class="What?">What?</h1>
+  </div>
+ 
+  <div class="whats">
+    <div class="category">
+      <h1>Sports</h1>
+    </div>
+  
+    <div class="category">
+      <h1>Fun</h1>
+    </div>
+  
+    <div class="category">
+      <h1>School</h1>
+    </div>
+  </div>
+
+  <div class="whats">
+    <div class="category">
+      <img src="./Profile_files/sport.png" alt="basketball">
+      <p class="profileWhatText">When it comes to the sports, I have practiced here is a list.</p>
+    </div>
+  
+    <div class="category">
+      <img src="./Profile_files/cars.JPG" alt="basketball">
+    </div>
+  
+    <div class="category">
+      <img src="./Profile_files/sport.png" alt="basketball">
+    </div>
+  </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

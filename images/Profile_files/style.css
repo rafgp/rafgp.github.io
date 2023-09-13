@@ -1,0 +1,499 @@
+body, html {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+/* Universal */ 
+
+.mainTitle {
+    display: flex;
+    padding-top: 1%;
+    justify-content: center;    
+    font-size: larger;
+    width: 100%;
+}
+
+hr {
+    max-width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 1px;
+    background-color: #000;
+}
+
+/* Navigation bar */
+.topBar {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: hsla(0, 100%, 100%, 0);
+    width: 100%; 
+    position: fixed;
+}
+
+.topLeft {
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 18px;
+}
+
+/* Nav button */
+.dropDown {
+    position: relative;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.dropBtn {
+    background-color: #2196F3;
+    color: black;
+    padding: 13px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: black;
+    right: 2px;
+}
+
+.topRight {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.dropBtn:hover {
+    background-color: #93ceff;
+    transition: opacity 0.3s ease;
+}
+
+.dropDownContent a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    text-align: left;
+}
+
+.dropDownContent a:hover {
+    background-color: #ddd;
+    transition: opacity 1s ease;
+}
+
+.dropDown:hover .dropDownContent {
+    display: block;
+}
+
+/* INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX/*
+
+/* Round image and main text */
+.mainSection {
+    margin-left: 28%;
+    display: flex;
+    padding-top: 15%;
+}
+
+.indexIntro {
+    margin-right: 0px;
+}
+
+.contactBtn {
+    margin-top: 10%;
+    padding: 5%;
+    background-color: #2196F3;
+    width: fit-content;
+    border-radius: 3%;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contactBtn:hover {
+    transform: scale(1.3);
+    background-color: #81c6ff;
+}
+
+.contactBtn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.indexPfp {
+    max-width: 25%;
+    box-shadow: 0 0 5px #2196F3;
+    border-radius: 50%;
+    border: 2px solid #2196F3;
+}
+
+.tech {
+    margin-left: 28%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.indexIcons {
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 3%;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+
+.spaceTopTwoSq {
+    padding-top: 250px;
+}
+
+.ecTitle {
+    width: 60%;
+    align-content: center;
+    text-align: center;
+}
+
+.indexHr {
+    max-width: 60%;
+    margin-top: 0.2%;
+    margin-bottom: 1.2%;
+    height: 2px;
+    background-color: #000;
+    border-radius: 3%;
+}
+
+/* Information section */ 
+
+/* Top section */
+.indexTopTwoSq {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 85px;
+}
+
+.bballImage:hover {
+    transform: scale(1.02);
+    transition: opacity 0.3s ease;
+}
+
+.imageBasket {
+    max-width: 415px;
+    max-height: 415px;
+    border-radius: 3%;
+    margin-right: 25px;
+}
+
+.bballInfo {
+    margin-left: 2%;
+    margin-top: -20px;
+}
+
+.ecs {
+    text-align: justify;
+    font-size: large;
+    padding-top: 0.5%;  
+}
+
+/* Bottom section */
+.indexBtmTwoSq {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 150px;
+}
+
+.edu {
+    padding-right: 30px;
+    box-shadow: 0 2px 5px 0 rgba (0, 0, 0, .1);
+}
+
+.ecInfo {
+    text-align: justify;
+    margin-right: 3%;
+}
+
+.imgContainer {
+    position: relative;
+    display: inline-block; 
+}
+
+.imgContainer:hover .subtitle {
+    opacity: 1; 
+} 
+
+.school {
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 3%;
+}
+
+.school:hover {
+    transform: scale(1.05);
+    transition: opacity 0.3s ease;
+
+}
+
+.schoolSubtitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+/* bottom bar */
+.bottombar {
+    color: white;
+    background-color: black; 
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    font-weight: bold;
+}
+
+.socialMediaIcons {
+    display: flex;
+    padding-top: 20%;
+}
+
+.iconHover:hover {
+    opacity: 40%;  
+    transform: scale(1.1); 
+    transition: opacity 0.3s ease;
+}
+
+.bottomBarContact {
+    margin-left: 77%;
+}
+
+/* FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ */
+
+.faqForm {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+input[type="text"] {
+    width: 50%; 
+    padding: 7px; 
+    font-size: 12px; 
+}
+
+.faqQuestions {
+    display: flex;
+    width: 100%;
+    padding-left: 25%;
+    align-items: center;
+    text-align: center;
+}
+
+.faqIcons {
+    max-width: 5%;
+}
+
+.answers{
+    display: flex;
+    width: 100%;
+    padding-left: 25%;
+    align-items: center;
+    max-width: 60%;
+}
+
+/* Profile Profile Profile Profile Profile Profile Profile Profile Profile Profile Profile */ 
+
+.mainTitleProfile {
+    display: flex;
+    padding-top: 8%;
+    justify-content: center;    
+    font-size: larger;
+    width: 100%;
+}
+
+.mainSectionProfile {
+    margin-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    padding-top: 12%;
+}
+
+.mainSectionProfile2 {
+    margin-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    padding-top: 4%;
+}
+.profilePfp {
+    max-width: 35%;
+}
+
+.profilePicText {
+    margin-left: 10%;
+}
+
+.profileIntro {
+    margin-left: 10%;
+    justify-content: center;
+    text-align: justify;
+}
+
+.socialMediaIconsProfile {
+    display: flex;
+}
+
+.indexIconsProfile {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 3%;
+    padding-top: 2%;
+    padding-left: 70px;
+}
+
+.indexIconsProfile:hover {
+    opacity: 20%;  
+    transform: scale(1.05); 
+    transition: opacity 1s ease;
+}
+
+.where {
+    padding-top: 3%;
+}
+
+.whats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add margin between the sets of images */
+  }
+  
+  .category {
+    width: 25%; /* Each category takes up 30% of the container */
+  }
+  
+  .category h1 {
+    text-align: center;
+  }
+  
+  .category img {
+    max-width: 90%; /* Ensure the images do not exceed the container width */
+    display: block;
+    margin: 0 auto; /* Center the images within their container */
+  }
+/* dashboard */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}   
+
+.grade {
+    background-color: rgba(33, 150, 243, 0.5);
+    font-weight: bold;
+}
+.dashTable {
+    border: 2px solid ; 
+    width: 70%; 
+    margin: 0 auto; /* Center the table */
+    background-color: rgba(33, 149, 243, 0.261);
+    color: black;    
+}
+
+.progress-bar {
+    position: relative;
+    width: 90%;
+    height: 40px;
+    margin-left: 3%;
+    background: rgba(33, 149, 243, 0.261);
+    border: 1px solid black; border: #000;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: auto;
+    width: 0%;
+    height: 100%;
+    background: green;
+    padding-left: 0.5%;
+}
+
+.marker-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.marker-list .marker {
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+/* LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS */ 
+
+.links {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.indvlink {
+    background-color: lightgray ;
+    min-width: 160px;
+    box-shadow: black;
+    text-align: center;
+}
+
+.links a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    text-align: left;
+}
+
+.links a:hover {
+    background-color: lightblue;
+}
+
+/*Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog*/ 
+
