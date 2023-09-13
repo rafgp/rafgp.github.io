@@ -5,6 +5,12 @@ body, html {
     font-family: Arial, sans-serif;
     color: #333;
 }
+
+a:hover {
+    transform: scale(1.1);
+    background-color: red;
+}
+
 .topleft {
     text-align: left;
     margin-left: 30px;
@@ -39,6 +45,7 @@ body, html {
     align-items: center;
     justify-content: center;
     gap: 25%;
+    padding-bottom: 1%;
 }
 
 .topbar {
@@ -46,7 +53,7 @@ body, html {
     color: black;
     justify-content: space-between;
     align-items: center; 
-    background-color: whitesmoke; 
+    background-color: hsla(0, 100%, 100%, 0); 
     width: 100%; 
     position: fixed;
 }

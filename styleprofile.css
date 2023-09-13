@@ -6,12 +6,13 @@ body, html {
     color: #333;
 }
 
+
 .topbar {
     display: flex;
     color: black;
     justify-content: space-between;
     align-items: center; 
-    background-color: whitesmoke; 
+    background-color: hsla(0, 100%, 100%, 0);
     width: 100%; 
     position: fixed;
 }
@@ -62,7 +63,10 @@ body, html {
     padding-left: 5%;
     padding-top: 8%;
 }
-
+a:hover {
+    transform: scale(1.1);
+    background-color: red;
+}
 .topleft {
     text-align: left;
     margin-left: 30px;
@@ -85,6 +89,7 @@ hr {
     margin-bottom: 2%;
     height: 5px;
     background-color: #000;
+    border: #000;
 }
 a {
     text-decoration: none;
