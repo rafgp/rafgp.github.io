@@ -308,7 +308,7 @@ hr {
 
 .faq {
     justify-content: center;
-    text-align: center;
+    text-align: left;
     font-size: larger;
     font-weight: bolder;
     margin-bottom: 2%;
@@ -319,7 +319,7 @@ hr {
     background-color: lightgray;
     min-width: 30%;
     box-shadow: black;
-    text-align: center;
+    text-align: left;
     width: 50%;
     align-items: center;
     margin-left: 23%;
@@ -335,6 +335,19 @@ hr {
     width: 50%; 
     text-align: justify; 
     margin: 0 auto;
+    font-size: smaller;
+}
+
+.faqAn {
+    padding: 1%;
+    background-color: #98caf3;
+    box-shadow: black;
+    color: black;
+    display: block;
+    width: 45%; 
+    text-align: justify; 
+    margin: 0 auto;
+    font-size: smaller;
 }
 
 .faqQ:hover {
