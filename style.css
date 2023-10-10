@@ -34,7 +34,7 @@ hr {
 
 .text{
     background-color: lightgray ;
-    padding: 2%;
+    padding: 2  %;
     width: fit-content;
 }
 /* Navigation bar */
@@ -86,6 +86,16 @@ hr {
     right: 2px;
 }
 
+.dropDownContent2 {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: black;
+    left: 2px;
+}
+
+
 .topRight {
     text-align: right;
     padding-right: 30px;
@@ -104,12 +114,30 @@ hr {
     text-align: left;
 }
 
+.dropDownContent2 a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    text-align: left;
+}
+
+
 .dropDownContent a:hover {
     background-color: #ddd;
     transition: opacity 1s ease;
 }
 
+.dropDownContent2 a:hover {
+    background-color: #ddd;
+    transition: opacity 1s ease;
+}
+
 .dropDown:hover .dropDownContent {
+    display: block;
+}
+
+.dropDown:hover .dropDownContent2 {
     display: block;
 }
 
@@ -169,7 +197,7 @@ hr {
 }
 
 .spaceTopTwoSq {
-    padding-top: 250px;
+    padding-top: 50px;
 }
 
 .ecTitle {

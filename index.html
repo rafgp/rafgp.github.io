@@ -11,9 +11,22 @@
 
 <body>
 
-  <div class="topBar"> <!-- Top bar -->
-    <div>
-      <p class="topLeft">Profile.Raftery</p>
+  <nav class="topBar"> <!-- Top bar -->
+    <div class="topLeft">
+      <div class="dropDown">
+        <button class="dropBtn">Links</button>
+        <div class="dropDownContent2">
+          <a href="https://shorturl.at/hxGUW" target="_blank">HZ course and Examination Regulations
+            2022-2023</a>
+            <a href="https://shorturl.at/fhiwF" target="_blank">Implementation Regulations (IR) of the HBO-ICT</a>
+        <a href="https://shorturl.at/gkCES" target="_blank">Learn Environment</a>
+        <a href="https://shorturl.at/bHM37" target="_blank">HBO-ICT Teams</a>
+        <a href="https://portal.hz.nl/en" target="_blank">MyHz</a>
+        <a href="https://github.com/HZ-HBO-ICT" target="_blank">HZ-HBO-ICT</a>
+        </div>
+        
+      </div>
+    </div>
     </div>
     <div class="dropDown">
       <button class="dropBtn">Nav</button>
@@ -22,13 +35,11 @@
         <a href="dash.html" class="topright">Dashboard</a>
         <a href="faq.html" class="topright">FAQ.</a>
         <a href="blog.html" class="topright">Blog</a>
-        <a href="links.html" class="topright">Links</a>
       </div>
     </div>
-  </div>
+  </nav>
 
-
-  <div class="mainSection"> <!-- Title, pfp and info -->
+  <header class="mainSection"> <!-- Title, pfp and info -->
     <div>
       <h1>ICT student at HZ university.</h1>
       <p class="indexIntro">Hi, I am Patricio and I am a first year at HZ.</p>
@@ -37,7 +48,7 @@
       </div>
     </div>
     <img src="images/pfp.png" class="indexPfp">
-  </div>
+  </header>
 
 
   <div class="tech" id="EC"> <!-- Icons -->
@@ -49,46 +60,48 @@
     </div>
   </div>
 
-  <div class="spaceTopTwoSq">
-  <h2 class="ecTitle">Extra curriculars:</h2>
-  <hr class="indexHr">
-  <div class="indexTopTwoSq"> <!-- Top two info sq-->
-    <a href="images/vid2.mp4" target="_blank">
-      <div class="bballImage">
-        <img src="images/basket.jpg" class="imageBasket">
+  <section class="spaceTopTwoSq"> <!-- Top two info sq-->
+    <h2 class="ecTitle">Extra curriculars:</h2>
+    <hr class="indexHr">
+    <div class="indexTopTwoSq">
+      <a href="images/vid2.mp4" target="_blank">
+        <div class="bballImage">
+          <img src="images/basket.jpg" class="imageBasket">
+        </div>
+      </a>
+      <div class="bballInfo">
+        <p class="ecs text">
+          Throughout my entire life I have been involved in all sorts of sports. First, I played soccer, even reaching
+          youth teams in Mexican clubs, then I did Taekwondo, obtaining a black belt at 7 years old and 7 gold medals in
+          state and regional tournaments. Then I tried fencing for a short period but ended up switching to basketball,
+          where I attended 2 nationals, won the state championship, and won silver twice.
+        </p>
       </div>
-    </a>
-    <div class="bballInfo">
-      <p class="ecs text">
-        Throughout my entire life I have been involved in all sorts of sports. First, I played soccer, even reaching
-        youth teams in Mexican clubs, then I did Taekwondo, obtaining a black belt at 7 years old and 7 gold medals in
-        state and regional tournaments. Then I tried fencing for a short period but ended up switching to basketball,
-        where I attended 2 nationals, won the state championship, and won silver twice.
-      </p>
-    </div>
-</div>
+  </section>
 
-  <h2 class="ecTitle">Education:</h2>
+  <h2 class="ecTitle">Education:</h2> <!-- Bottom two info sq-->
   <hr class="indexHr">
-  <div class="indexTopTwoSq"> <!-- Bottom two info sq-->
-   <div><p class="ecInfo text">
-       I studied my entire life in Mexico,
-      for the last 3 years I moved to Puebla, a large
-      city in the center of Mexico in search of better-quality
-      education.
-    </p>
-    <ul>
-      <p class="text">The courses i took</p>
-      <li>Math </li>
-      <li>Physics </li>
-      <li>Business Management</li>
-      <li>Spanish literature</li>
-      <li>English literature</li>
-      <li>Theory of Knowledge</li>
-      <li>German</li>
-    </ul>
+
+  <section class="indexTopTwoSq">
+    <div>
+      <p class="ecInfo text">
+        I studied my entire life in Mexico,
+        for the last 3 years I moved to Puebla, a large
+        city in the center of Mexico in search of better-quality
+        education.
+      </p>
+      <ul>
+        <p class="text">The courses i took</p>
+        <li>Math </li>
+        <li>Physics </li>
+        <li>Business Management</li>
+        <li>Spanish literature</li>
+        <li>English literature</li>
+        <li>Theory of Knowledge</li>
+        <li>German</li>
+      </ul>
     </div>
-     
+
     <div class="imgContainer">
       <a href="https://www.damicis.edu.mx/" target="_blank">
         <div>
@@ -97,22 +110,32 @@
         </div>
       </a>
     </div>
+  </section>
   </div>
+
+
+  <h2 class="ecTitle">Motivation:</h2>
+  <hr class="indexHr">
+  <p class="motivation text">
+    Personally, one of the biggest motivators for studying ICT is my interest in the world of technology and the vast
+    opportunities ICT offers. I find myself captivated when programming, running in to problems and looking for
+    solutions is something I enjoy thoroughly. I love the experience of learning and acquiring knowledge to build
+    something new.
+  </p>
+  <p class="motivation text">Since I was a kid, I loved anything to do with technology, software and hardware and I
+    would catch myself spending hours on end browsing, gaming, exploring and in short interacting with anything digital
+    I could put my cursor on. I also have a taste for creating things, letting creativity guide me, or following strict
+    instructions to build something complex. Being a software engineer combines these two things I enjoy so much. I have
+    already done some studying previous to HZ in to coding, via freecodecamp, YouTube and a few small python projects,
+    but a testament to my interest is my website, as to before the assignment I had little to no experience with html or
+    CSS, but I have spent a lot of time working and reworking things in it, investigating and learning new things that
+    are not necessarily specified or required. </p>
   </div>
 
 
-    <h2 class="ecTitle">Motivation:</h2>
-    <hr class="indexHr">
-        <p class="motivation text">
-          Personally, one of the biggest motivators for studying ICT is my interest in the world of technology and the vast opportunities ICT offers. I find myself captivated when programming, running in to problems and looking for solutions is something I enjoy thoroughly. I love the experience of learning and acquiring knowledge to build something new. 
-        </p>
-        <p class="motivation text">Since I was a kid, I loved anything to do with technology, software and hardware and I would catch myself spending hours on end browsing, gaming, exploring and in short interacting with anything digital I could put my cursor on. I also have a taste for creating things, letting creativity guide me, or following strict instructions to build something complex. Being a software engineer combines these two things I enjoy so much. I have already done some studying previous to HZ in to coding, via freecodecamp, YouTube and a few small python projects, but a testament to my interest is my website, as to before the assignment I had little to no experience with html or CSS, but I have spent a lot of time working and reworking things in it, investigating and learning new things that are not necessarily specified or required. </p>
-      </div>
-
-  
 
   <!--Bottom Bar-->
-  <div class="bottombar" id="btm">
+  <footer class="bottombar" id="btm">
     <div>
 
       <div class="socialMediaIcons">
@@ -137,10 +160,11 @@
       <p>Email: patoraftery@gmail.com</p>
       <p>Cell: +52 7712149329</p>
     </div>
-  </div>
+  </footer>
 
-  
+
 
 
 </body>
+
 </html>
