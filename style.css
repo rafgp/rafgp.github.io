@@ -348,9 +348,9 @@ hr {
     min-width: 30%;
     box-shadow: black;
     text-align: left;
-    width: 50%;
+    width: 40%;
     align-items: center;
-    margin-left: 23%;
+    margin-left: 28%;
     margin-bottom: 10px;
 }
 
@@ -422,14 +422,14 @@ input[type="text"] {
 }
 
 .mainSectionProfile {
-    margin-left: 25%;
+    margin-left: 28%;
     padding-right: 25%;
     display: flex;
-    padding-top: 12%;
+    padding-top: 9%;
 }
 
 .mainSectionProfile2 {
-    margin-left: 25%;
+    margin-left: 28%;
     padding-right: 25%;
     display: flex;
     padding-top: 4%;
