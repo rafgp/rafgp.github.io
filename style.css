@@ -34,7 +34,7 @@ hr {
 
 .text{
     background-color: lightgray ;
-    padding: 2  %;
+    padding: 2%;
     width: fit-content;
 }
 /* Navigation bar */
@@ -141,7 +141,7 @@ hr {
     display: block;
 }
 
-/* INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX/*
+/* INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX/*
 
 /* Round image and main text */
 .mainSection {
@@ -351,7 +351,7 @@ hr {
     width: 50%;
     align-items: center;
     margin-left: 23%;
-    margin-bottom: 10px; /* Add this line to add space below the summary */
+    margin-bottom: 10px;
 }
 
 .faqA {
@@ -576,7 +576,7 @@ th, td {
     background-color: black;
 }
 
-/* LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS */ 
+/* LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS */ 
 
 .links {
     margin-left: 25%;
@@ -604,7 +604,7 @@ th, td {
     background-color: lightblue;
 }
 
-/*Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog*/ 
+/*Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog*/ 
 
 .faqAnvidia {
     padding: 1%;
@@ -639,15 +639,15 @@ th, td {
 
 .divider {
     width: 4px;
-    height: 100%; /* Adjust the height as needed */
+    height: 100%; 
     align-items: center ;
-    background-color: black; /* Color of the dividing line */
+    background-color: black; 
     position: absolute;
     left: 50%;
    
 }
 
-/* Contact  Contact Contact Contact Contact Contact Contact Contact */
+/* Contact  Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact */
 
   .container {
     max-width: 800px;
